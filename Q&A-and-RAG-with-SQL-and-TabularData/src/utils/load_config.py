@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import yaml
 from pyprojroot import here
 import shutil
-from openai import AzureOpenAI
+from openai import AzureOpenAI, OpenAI
 from langchain.chat_models import AzureChatOpenAI
 import chromadb
 
@@ -47,16 +47,19 @@ class LoadConfig:
         azure_openai_api_key = os.environ["OPENAI_API_KEY"]
         azure_openai_endpoint = os.environ["OPENAI_API_BASE"]
         # This will be used for the GPT and embedding models
-        self.azure_openai_client = AzureOpenAI(
-            api_key=azure_openai_api_key,
-            api_version=os.getenv("OPENAI_API_VERSION"),
-            azure_endpoint=azure_openai_endpoint
+        # self.azure_openai_client = AzureOpenAI(
+        #     api_key=azure_openai_api_key,
+        #     api_version=os.getenv("OPENAI_API_VERSION"),
+        #     azure_endpoint=azure_openai_endpoint
+        # )
+        self.azure_openai_client = OpenAI(
+            api_key=azure_openai_api_key
         )
-        self.langchain_llm = AzureChatOpenAI(
-            openai_api_version=os.getenv("OPENAI_API_VERSION"),
-            azure_deployment=self.model_name,
-            model_name=self.model_name,
-            temperature=self.temperature)
+        # self.langchain_llm = AzureChatOpenAI(
+        #     openai_api_version=os.getenv("OPENAI_API_VERSION"),
+        #     azure_deployment=self.model_name,
+        #     model_name=self.model_name,
+        #     temperature=self.temperature)
 
     def load_chroma_client(self):
         self.chroma_client = chromadb.PersistentClient(
