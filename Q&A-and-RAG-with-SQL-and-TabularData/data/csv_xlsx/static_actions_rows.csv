@@ -1,0 +1,62 @@
+static_action_id,name,acronym,description
+1,Blockchain Migration,BLKMIG,Migration of an asset from one blockchain protocol to another blockchain protocol.
+2,Contract Migration,CTMIG,The migration of an asset contract from one blockchain contract address to a new one.
+3,Rebrand,NAMG,"Change in the name, ticker or other identifying characteristic of an asset."
+4,Hard Fork,HFORK,Radical change to a blockchain protocol that effectively results in two or more asset branches.
+5,Soft Fork,SFORK,Minor change to a blockchain protocol where backwards compatibility with old nodes is retained.
+6,Redenomination,REDNOM,Change in which an asset is revalued at a ratio other than 1:1.
+7,Trade Listing,TLIST,The addition of an asset to be tradable on a trading venue.
+8,Trade Delisting,TDLIST,The removal of an asset to no longer be tradable on a trading venue.
+9,Mint,MINT,The generation of a new cryptoasset.
+10,Burn,BRN,The destruction of a cryptoasset.
+11,Change of Auditor,CADTR,Event in which the entity auditing a specific aspect of an asset has changed from the previous entity performing that audit.
+12,Abandoned,ABNDN,Asset is abandoned by official entity and no longer supported.
+13,Velvet Fork,VTFK,Type of blockchain fork that does not require modifications to the consensus layer of a blockchain and is deployed in a staggered fashion.
+14,Hard Spoon,HSPOON,"Type of blockchain fork where a new meta-protocol is created on top of an existing blockchain, retaining the original blockchains account balances in order facilitate additional services."
+15,Asset Launch,ASLH,Creation of an asset as evidenced by its existence on a blockchain.
+16,Network Airdrop,NWKAD,Free assets supplied to holders of an asset by the asset creators.
+17,Expired,EXPD,Change in which an asset with a set expiration date reaches the end of the period and becomes inactive.
+18,Security Incident,SINDT,Network attack or discovered vulnerability that has the potential to have a material impact on an asset.
+19,Transfer Listing,TFLIST,The addition of an asset to be transferrable on a trading venue.
+20,Transfer Delisting,TFDLIST,The removal of an asset to no longer be transferrable on a trading venue.
+21,Soft Spoon,SSPOON,Type of blockchain fork where two branches of a protocol are created within the same blockchain.
+22,Reclaimed,RCLM,An event in which an asset that has been Abandoned receives new official support from an entity.
+23,Change in Collateral,CCLTRL,An event in which an issuing entity makes a change to the collateral backing an asset.
+24,Legal or Regulatory Event,LORE,An event in which an asset or issuing entity is the subject of a legal or regulatory inquiry.
+25,Custody Support Initiated,CSDYSRT,The addition of custodial support for an asset by a custodian.
+26,Custody Support Terminated,CSDYEND,The removal of custodial support for an asset by a custodian.
+27,Created in Error,CRTE,A Lukka initiated event that is applied to a data record when erroneous information is included in the reference data.
+28,Not Applicable,NA,A placeholder for events that do not apply to Digital Assets.
+29,Succession Event,SUCCN,"An event in which an asset is succeeded, replaced or otherwise superseded by another asset."
+30,Exchange Naming Convention Change,ENCC,"Change in the name, ticker or other characteristic used by a specific entity to identify a listed asset."
+31,Event Period End,EPE,An event that represents the end of another event which has occurred over a period of time.
+32,Venue Closure,VENCLS,"An event that is applied when a venue ceases to engage in market activities, and all previously supported functions become unavailable."
+33,Distribution,DSTRB,The release of cryptoassets into circulating supply from an issuer- or protocol-maintained treasury or reserve address or the vesting of previously locked assets.
+34,Removal,RMVL,The removal of cryptoassets from circulating supply to an issuer- or protocol-maintained treasury or reserve address.
+35,Change in Supply Delta,DLTACHG,Change in the supply delta specified in an assets monetary policy.
+36,Blockchain Merge,CHNMRGE,The merge of multiple distinct blockchains into one. The resulting blockchain may inherit characteristics from all pre-merge chains.
+37,Change in Block Time,TIMECHG,Change in an assets block time characteristics.
+38,Technology Audit,TECAUDT,A audit that is meant to proactively identify vulnerabilities in a given assets codebase.
+39,Venue Launch,VENLNCH,An event that is applied when a venue officially launches their platform.
+40,License or Regulatory Approval,LICREG,An event in which an asset or issuing entity obtains an official license or regulatory approval.
+41,Obtained Certification,OBCERT,An event in which an industry standard certification is obtained.
+42,Change in Primary Location,CPLOC,An event in which the primary location has changed.
+43,Beta Launch,BETA,The start of a public beta for a venue.
+44,Completed Proof of Reserve Review,PORVIEW,An event where a venue has had their reserves reviewed by a third party provider.
+45,New Functionality,NEW,An event in which an asset or venue has released new capabilities or functionality.
+46,Change in Strategic Direction,DRCNCHG,An event in which an asset or venue pivots its operations to an alternate business focus.
+47,Change of Derivative Contract Specification,DCSC,Change in the specification or other characteristics of a derivative contract.
+48,Alpha Launch,ALPHA,The start of a public alpha for a venue.
+49,Change in Location,CHLCN,An event in which an asset or venue adds a new or changes and existing location of operation.
+50,License or Regulatory Removal,LCRGRML,"An event in which an asset or issuing entity surrenders, either voluntarily or involuntarily, an official license or regulatory approval previously granted."
+51,Acquired,ACQRD,An event in which an entity is acquired by another entity.
+52,Venue Relaunch,VENRLCH,An event that is applied when a venue officially launches their platform after a previous launch.
+53,Service Outage,OUTAGE,An event in which the normal operational aspects are interupted or otherwise non-functional.
+54,Audit,AUDT,An event in which an asset undergoes an organizational or financial audit or review process.
+55,Software Update,SFTWR,An event in which an asset is undergoes a minor update for feature enhancements.
+56,Change in Tokenomics Distribution,TKNCHNG,An event in which an issuer or community decides to make changes to previously determined supply distributions.
+57,Change in Lock Up Period,LOCKCHG,An event in which an issuer or community decides to make changes to previously determined vesting contract lock up periods.
+58,Removal of Functionality,REMOVE,An event in which an asset or venue has removed capabilities or functionality.
+59,New Funding Source,NFUNDS,An event in which an asset or venue has recieved funding from an investor.
+60,Governance Proposal,GOVPR,An event in which voting is initiated to determine the outcome of a proposal within a Decentralized Autonomous Organization.
+61,Change in Regulatory Classification,CHREG,An event in which an asset experiences a change in regulatory status relative to a specific jurisdiction.
